@@ -11,11 +11,3 @@
 /// ----------------------------------------------------------------
 // ignore_for_file: dangling_library_doc_comments
 
-enum Category {
-  nowPlaying('En cartelera'),
-  popular('Populares'),
-  upcoming('Próximamente');
-
-  final String name;
-  const Category(this.name);
-}
