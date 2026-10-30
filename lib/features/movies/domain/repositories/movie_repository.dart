@@ -10,10 +10,3 @@ import 'package:cinemex/features/movies/domain/entities/entities.dart';
 /// ----------------------------------------------------------------
 // ignore_for_file: dangling_library_doc_comments
 
-abstract class MovieRepository {
-  Future<List<Movie>> getNowPlaying({int page = 1});
-
-  Future<List<Movie>> getPopular({int page = 1});
-
-  Future<List<Movie>> getUpcoming({int page = 1});
-}
